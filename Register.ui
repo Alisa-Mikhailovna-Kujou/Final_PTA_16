@@ -26,11 +26,11 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="Email_login">
+   <widget class="QLabel" name="Email_re">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>190</y>
+      <y>240</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -44,11 +44,11 @@
      <string>Email</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Enter_emai_login">
+   <widget class="QLineEdit" name="Enter_emai_re">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>230</y>
+      <y>280</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -68,8 +68,8 @@
    <widget class="QLabel" name="Main_title">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>100</y>
+      <x>180</x>
+      <y>40</y>
       <width>251</width>
       <height>51</height>
      </rect>
@@ -80,17 +80,17 @@
      </font>
     </property>
     <property name="text">
-     <string>Manga Store</string>
+     <string>MangaStore</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Enter_passwor_login">
+   <widget class="QLineEdit" name="Enter_usename_re">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>330</y>
+      <y>380</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -107,11 +107,11 @@
      <string>Enter The Username</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Password_login">
+   <widget class="QLabel" name="Username_re">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>290</y>
+      <y>340</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -125,11 +125,11 @@
      <string>Username</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Password_login_2">
+   <widget class="QLabel" name="Confirm_password_re">
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>280</y>
+      <y>340</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -143,11 +143,11 @@
      <string>Confirm password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Enter_emai_login_2">
+   <widget class="QLineEdit" name="Enter_password_re">
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>230</y>
+      <y>280</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -164,11 +164,11 @@
      <string>Enter The Password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Enter_passwor_login_2">
+   <widget class="QLineEdit" name="Enter_passwor_re">
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>330</y>
+      <y>380</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -185,11 +185,11 @@
      <string>Entter The Password</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Email_login_2">
+   <widget class="QLabel" name="Password_re">
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>190</y>
+      <y>240</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -201,6 +201,100 @@
     </property>
     <property name="text">
      <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Register_title">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>140</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Back_to_login">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>460</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none</string>
+    </property>
+    <property name="text">
+     <string>&lt;- Back to login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Register_button">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>480</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Agree_the_term">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>430</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Agree to the terms</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-100</x>
+      <y>10</y>
+      <width>251</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/MangaStore.png</pixmap>
     </property>
    </widget>
   </widget>

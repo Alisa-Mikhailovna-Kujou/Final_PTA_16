@@ -34,8 +34,8 @@
    <widget class="QLabel" name="Main_title">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>90</y>
+      <x>180</x>
+      <y>40</y>
       <width>251</width>
       <height>51</height>
      </rect>
@@ -46,7 +46,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Manga Store</string>
+     <string>MangaStore</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -56,7 +56,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>180</y>
+      <y>240</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -74,7 +74,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>280</y>
+      <y>340</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -92,7 +92,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>220</y>
+      <y>280</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -113,7 +113,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>320</y>
+      <y>380</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -133,8 +133,8 @@
    <widget class="QPushButton" name="Login_button">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>410</y>
+      <x>240</x>
+      <y>440</y>
       <width>121</width>
       <height>51</height>
      </rect>
@@ -148,11 +148,11 @@
      <string>Login</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="Create_acc">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>470</y>
+      <x>230</x>
+      <y>500</y>
       <width>141</width>
       <height>23</height>
      </rect>
@@ -169,6 +169,43 @@
      <string>Create an account</string>
     </property>
    </widget>
+   <widget class="QLabel" name="Main_title_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>140</y>
+      <width>451</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sign in to your account</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-100</x>
+      <y>10</y>
+      <width>251</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/MangaStore.png</pixmap>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -176,7 +213,7 @@
      <x>0</x>
      <y>0</y>
      <width>600</width>
-     <height>23</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuLogin">
