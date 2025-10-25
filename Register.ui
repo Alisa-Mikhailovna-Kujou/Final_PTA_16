@@ -40,6 +40,9 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
     <property name="text">
      <string>Email</string>
     </property>
@@ -78,6 +81,9 @@
      <font>
       <pointsize>32</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
     </property>
     <property name="text">
      <string>MangaStore</string>
@@ -121,6 +127,9 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
     <property name="text">
      <string>Username</string>
     </property>
@@ -138,6 +147,9 @@
      <font>
       <pointsize>20</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
     </property>
     <property name="text">
      <string>Confirm password</string>
@@ -199,6 +211,9 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
     <property name="text">
      <string>Password</string>
     </property>
@@ -216,6 +231,9 @@
      <font>
       <pointsize>32</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
     </property>
     <property name="text">
      <string>Register</string>
@@ -239,7 +257,8 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border: none</string>
+     <string notr="true">border: none;
+color: white</string>
     </property>
     <property name="text">
      <string>&lt;- Back to login</string>
@@ -277,6 +296,9 @@
       <pointsize>12</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
     <property name="text">
      <string>Agree to the terms</string>
     </property>
@@ -285,7 +307,7 @@
     <property name="geometry">
      <rect>
       <x>-100</x>
-      <y>10</y>
+      <y>0</y>
       <width>251</width>
       <height>201</height>
      </rect>
@@ -297,6 +319,42 @@
      <pixmap>../../../../Downloads/MangaStore.png</pixmap>
     </property>
    </widget>
+   <widget class="QLabel" name="Background_login">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>621</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>4</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 26, 26)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>Background_login</zorder>
+   <zorder>Email_re</zorder>
+   <zorder>Enter_emai_re</zorder>
+   <zorder>Main_title</zorder>
+   <zorder>Enter_usename_re</zorder>
+   <zorder>Username_re</zorder>
+   <zorder>Confirm_password_re</zorder>
+   <zorder>Enter_password_re</zorder>
+   <zorder>Enter_passwor_re</zorder>
+   <zorder>Password_re</zorder>
+   <zorder>Register_title</zorder>
+   <zorder>Back_to_login</zorder>
+   <zorder>Register_button</zorder>
+   <zorder>Agree_the_term</zorder>
+   <zorder>label</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

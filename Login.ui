@@ -35,7 +35,7 @@
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>40</y>
+      <y>60</y>
       <width>251</width>
       <height>51</height>
      </rect>
@@ -44,6 +44,9 @@
      <font>
       <pointsize>32</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
     </property>
     <property name="text">
      <string>MangaStore</string>
@@ -66,6 +69,9 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
     <property name="text">
      <string>Email</string>
     </property>
@@ -83,6 +89,9 @@
      <font>
       <pointsize>20</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
     </property>
     <property name="text">
      <string>Password</string>
@@ -144,6 +153,9 @@
       <pointsize>22</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
      <string>Login</string>
     </property>
@@ -163,7 +175,8 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border: none</string>
+     <string notr="true">border: none;
+color: white</string>
     </property>
     <property name="text">
      <string>Create an account</string>
@@ -173,7 +186,7 @@
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>140</y>
+      <y>170</y>
       <width>451</width>
       <height>51</height>
      </rect>
@@ -182,6 +195,9 @@
      <font>
       <pointsize>32</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
     </property>
     <property name="text">
      <string>Sign in to your account</string>
@@ -194,7 +210,7 @@
     <property name="geometry">
      <rect>
       <x>-100</x>
-      <y>10</y>
+      <y>0</y>
       <width>251</width>
       <height>201</height>
      </rect>
@@ -206,6 +222,37 @@
      <pixmap>../../../../Downloads/MangaStore.png</pixmap>
     </property>
    </widget>
+   <widget class="QLabel" name="Background_login">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>621</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>4</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 26, 26)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>Background_login</zorder>
+   <zorder>Main_title</zorder>
+   <zorder>Email_login</zorder>
+   <zorder>Password_login</zorder>
+   <zorder>Enter_emai_login</zorder>
+   <zorder>Enter_passwor_login</zorder>
+   <zorder>Login_button</zorder>
+   <zorder>Create_acc</zorder>
+   <zorder>Main_title_2</zorder>
+   <zorder>label</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
