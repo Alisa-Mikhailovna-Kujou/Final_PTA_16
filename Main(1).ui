@@ -232,10 +232,10 @@
    <widget class="QLabel" name="KNY_picture">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>190</y>
-      <width>161</width>
-      <height>231</height>
+      <x>200</x>
+      <y>120</y>
+      <width>211</width>
+      <height>301</height>
      </rect>
     </property>
     <property name="text">
@@ -251,9 +251,9 @@
    <widget class="QLabel" name="Popular">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>250</x>
       <y>60</y>
-      <width>211</width>
+      <width>111</width>
       <height>41</height>
      </rect>
     </property>
@@ -267,22 +267,50 @@
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Recommended</string>
+     <string>Popular</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="KNY_content">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>200</y>
+      <width>431</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MT Extra</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="text">
+     <string>     The Infinity Castle is a vast, ever-shifting fortress controlled by Muzan Kibutsuji in Demon Slayer: Kimetsu no Yaiba. Its maze-like halls and gravity-defying architecture trap intruders in an endless space. The castle serves as the final battleground where the Demon Slayer Corps face Muzan and his strongest demons.</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="KNY_name">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>520</x>
       <y>130</y>
-      <width>171</width>
+      <width>271</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>MT Extra</family>
-      <pointsize>12</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -306,8 +334,8 @@ The Infinity Castle</string>
    <widget class="QLabel" name="Dot">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>290</y>
+      <x>260</x>
+      <y>480</y>
       <width>61</width>
       <height>16</height>
      </rect>
@@ -338,16 +366,16 @@ The Infinity Castle</string>
    <widget class="QLabel" name="KNY_author">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>430</y>
-      <width>121</width>
+      <x>570</x>
+      <y>400</y>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>MT Extra</family>
-      <pointsize>10</pointsize>
+      <pointsize>14</pointsize>
       <italic>true</italic>
      </font>
     </property>
@@ -386,25 +414,6 @@ The Infinity Castle</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="KNY_picture_2">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>190</y>
-      <width>161</width>
-      <height>231</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../Downloads/tải xuống (46).png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
    <zorder>Background_Main</zorder>
    <zorder>TextEdit_Main</zorder>
    <zorder>Title_main</zorder>
@@ -417,11 +426,11 @@ The Infinity Castle</string>
    <zorder>Logo</zorder>
    <zorder>KNY_picture</zorder>
    <zorder>Popular</zorder>
+   <zorder>KNY_content</zorder>
    <zorder>KNY_name</zorder>
    <zorder>Dot</zorder>
    <zorder>KNY_author</zorder>
    <zorder>Search_icon</zorder>
-   <zorder>KNY_picture_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
