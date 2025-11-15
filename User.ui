@@ -138,7 +138,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border: none</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>User</string>
@@ -159,7 +159,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">border: none</string>
     </property>
     <property name="text">
      <string>Favorite</string>
@@ -186,7 +186,7 @@
      <string>Log out</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Search">
+   <widget class="QLineEdit" name="Search_user">
     <property name="geometry">
      <rect>
       <x>630</x>
@@ -207,7 +207,7 @@
      <string/>
     </property>
     <property name="placeholderText">
-     <string>Search</string>
+     <string>Search user</string>
     </property>
    </widget>
    <widget class="QLabel" name="Logo">
@@ -229,12 +229,12 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Favorite_title">
+   <widget class="QLabel" name="User_title">
     <property name="geometry">
      <rect>
       <x>270</x>
       <y>50</y>
-      <width>121</width>
+      <width>101</width>
       <height>41</height>
      </rect>
     </property>
@@ -248,7 +248,7 @@
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Favorite</string>
+     <string>Profile</string>
     </property>
    </widget>
    <widget class="QLabel" name="Search_icon">
@@ -292,28 +292,13 @@ color: white</string>
      <string>&lt;-</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="Arya_text">
+   <widget class="QLabel" name="Avatar_user">
     <property name="geometry">
      <rect>
       <x>190</x>
       <y>110</y>
-      <width>671</width>
-      <height>211</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(44, 44, 44);
-border: none;
-border-radius: 15px</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Arya_picture">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>120</y>
-      <width>131</width>
-      <height>191</height>
+      <width>251</width>
+      <height>241</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -323,18 +308,100 @@ border-radius: 15px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Downloads/tải xuống (49).png</pixmap>
+     <pixmap>../../../../Downloads/screenshot_1763192865-Photoroom.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Arya_name">
+   <widget class="QLabel" name="Name_user">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>120</y>
-      <width>511</width>
+      <x>460</x>
+      <y>130</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MT Extra</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="text">
+     <string>DevilRainbow</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Change_frofile">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>170</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 1, 56);
+border: none;
+border-radius:7px;
+color: white</string>
+    </property>
+    <property name="text">
+     <string>Change frofile</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Biography_content">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>260</y>
+      <width>391</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(44, 44, 44);
+border: none;
+border-radius: 15px;
+color: white</string>
+    </property>
+    <property name="text">
+     <string>Wibu never die</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Biography">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>220</y>
+      <width>91</width>
       <height>31</height>
      </rect>
     </property>
@@ -348,296 +415,47 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Tokidoki Bosotto Russia-go de Deruru Tonari no Arya-san</string>
+     <string>Biography</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Arya_Vol8">
+   <widget class="QLabel" name="Biography_word">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>170</y>
-      <width>101</width>
-      <height>21</height>
+      <x>470</x>
+      <y>310</y>
+      <width>71</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>MT Extra</family>
-      <pointsize>14</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Vol 8 - ...</string>
+     <string>0/80 words</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Arya_Vol7">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>220</y>
-      <width>101</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MT Extra</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: white</string>
-    </property>
-    <property name="text">
-     <string>Vol 7 - ...</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Arya_Vol6">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>270</y>
-      <width>101</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MT Extra</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: white</string>
-    </property>
-    <property name="text">
-     <string>Vol 6 - ...</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="Mahiru_text">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>340</y>
-      <width>671</width>
-      <height>211</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(44, 44, 44);
-border: none;
-border-radius: 15px</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Mahiru_picture">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>350</y>
-      <width>131</width>
-      <height>191</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../Downloads/tải xuống (50).png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Mahiru_name">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>350</y>
-      <width>471</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MT Extra</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: white</string>
-    </property>
-    <property name="text">
-     <string>Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Mahiru_Vol9">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>400</y>
-      <width>101</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MT Extra</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: white</string>
-    </property>
-    <property name="text">
-     <string>Vol 9 - ...</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Mahiru_Vol8_5">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>450</y>
-      <width>101</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MT Extra</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: white</string>
-    </property>
-    <property name="text">
-     <string>Vol 8.5 - ...</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Mahiru_Vol8">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>500</y>
-      <width>101</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MT Extra</family>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: white</string>
-    </property>
-    <property name="text">
-     <string>Vol 8 - ...</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Arya_more_info">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>290</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>More info</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Mahiru_more_info">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>520</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>More info</string>
     </property>
    </widget>
    <zorder>Background_Main</zorder>
@@ -648,25 +466,17 @@ border-radius: 15px</string>
    <zorder>User</zorder>
    <zorder>Favorite</zorder>
    <zorder>Log_out</zorder>
-   <zorder>Search</zorder>
+   <zorder>Search_user</zorder>
    <zorder>Logo</zorder>
-   <zorder>Favorite_title</zorder>
+   <zorder>User_title</zorder>
    <zorder>Search_icon</zorder>
    <zorder>Return_home</zorder>
-   <zorder>Arya_text</zorder>
-   <zorder>Arya_picture</zorder>
-   <zorder>Arya_name</zorder>
-   <zorder>Arya_Vol8</zorder>
-   <zorder>Arya_Vol7</zorder>
-   <zorder>Arya_Vol6</zorder>
-   <zorder>Mahiru_text</zorder>
-   <zorder>Mahiru_picture</zorder>
-   <zorder>Mahiru_name</zorder>
-   <zorder>Mahiru_Vol9</zorder>
-   <zorder>Mahiru_Vol8_5</zorder>
-   <zorder>Mahiru_Vol8</zorder>
-   <zorder>Arya_more_info</zorder>
-   <zorder>Mahiru_more_info</zorder>
+   <zorder>Avatar_user</zorder>
+   <zorder>Name_user</zorder>
+   <zorder>Change_frofile</zorder>
+   <zorder>Biography_content</zorder>
+   <zorder>Biography</zorder>
+   <zorder>Biography_word</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

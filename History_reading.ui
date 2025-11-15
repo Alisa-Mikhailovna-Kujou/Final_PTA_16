@@ -117,7 +117,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border: none</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Reading history</string>
@@ -159,7 +159,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">border: none</string>
     </property>
     <property name="text">
      <string>Favorite</string>
@@ -234,7 +234,7 @@
      <rect>
       <x>270</x>
       <y>50</y>
-      <width>121</width>
+      <width>231</width>
       <height>41</height>
      </rect>
     </property>
@@ -248,7 +248,7 @@
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Favorite</string>
+     <string>Reading history</string>
     </property>
    </widget>
    <widget class="QLabel" name="Search_icon">
@@ -292,7 +292,7 @@ color: white</string>
      <string>&lt;-</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="Arya_text">
+   <widget class="QTextEdit" name="Lloyd_text">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -307,7 +307,7 @@ border: none;
 border-radius: 15px</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Arya_picture">
+   <widget class="QLabel" name="Lloyd_picture">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -323,19 +323,19 @@ border-radius: 15px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Downloads/tải xuống (49).png</pixmap>
+     <pixmap>../../../../Downloads/screenshot_1763190925.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Arya_name">
+   <widget class="QLabel" name="Lloyd_name">
     <property name="geometry">
      <rect>
       <x>340</x>
       <y>120</y>
       <width>511</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -348,7 +348,7 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Tokidoki Bosotto Russia-go de Deruru Tonari no Arya-san</string>
+     <string>Yuusha to Yobareta Nochi ni - Soshite Musou Otoko wa Kazoku wo Tsukuru </string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -360,7 +360,7 @@ border-radius: 15px</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Arya_Vol8">
+   <widget class="QLabel" name="Lloyd_Vol12">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -379,7 +379,7 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Vol 8 - ...</string>
+     <string>Vol 12 - ...</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -391,7 +391,7 @@ border-radius: 15px</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Arya_Vol7">
+   <widget class="QLabel" name="Lloyd_Vol11">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -410,7 +410,7 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Vol 7 - ...</string>
+     <string>Vol 11 - ...</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -422,7 +422,7 @@ border-radius: 15px</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Arya_Vol6">
+   <widget class="QLabel" name="Lloyd_Vol10">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -441,7 +441,7 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Vol 6 - ...</string>
+     <string>Vol 10 - ...</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -453,7 +453,7 @@ border-radius: 15px</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QTextEdit" name="Mahiru_text">
+   <widget class="QTextEdit" name="S_text">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -468,7 +468,7 @@ border: none;
 border-radius: 15px</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Mahiru_picture">
+   <widget class="QLabel" name="S_picture">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -484,13 +484,13 @@ border-radius: 15px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Downloads/tải xuống (50).png</pixmap>
+     <pixmap>../../../../Downloads/screenshot_1763191292.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Mahiru_name">
+   <widget class="QLabel" name="S_name">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -509,7 +509,7 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken</string>
+     <string>S-Rank Boukensha de Aru Ore no Musume-tachi wa Juudo no Father-con deshita</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -521,7 +521,7 @@ border-radius: 15px</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Mahiru_Vol9">
+   <widget class="QLabel" name="S_Vol9">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -540,7 +540,7 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Vol 9 - ...</string>
+     <string>Vol 13 - ...</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -552,7 +552,7 @@ border-radius: 15px</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Mahiru_Vol8_5">
+   <widget class="QLabel" name="S_Vol12">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -571,7 +571,7 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Vol 8.5 - ...</string>
+     <string>Vol 12 - ...</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -583,7 +583,7 @@ border-radius: 15px</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Mahiru_Vol8">
+   <widget class="QLabel" name="S_Vol11">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -602,7 +602,95 @@ border-radius: 15px</string>
      <string notr="true">color: white</string>
     </property>
     <property name="text">
-     <string>Vol 8 - ...</string>
+     <string>Vol 11 - ...</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Lloyd_more_info">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>290</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>More info</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="S_more_info">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>520</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>More info</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Lloyd_time">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>290</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MT Extra</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="text">
+     <string>1 month ago</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="S_time">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>520</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MT Extra</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="text">
+     <string>2 month ago</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -627,18 +715,22 @@ border-radius: 15px</string>
    <zorder>Favorite_title</zorder>
    <zorder>Search_icon</zorder>
    <zorder>Return_home</zorder>
-   <zorder>Arya_text</zorder>
-   <zorder>Arya_picture</zorder>
-   <zorder>Arya_name</zorder>
-   <zorder>Arya_Vol8</zorder>
-   <zorder>Arya_Vol7</zorder>
-   <zorder>Arya_Vol6</zorder>
-   <zorder>Mahiru_text</zorder>
-   <zorder>Mahiru_picture</zorder>
-   <zorder>Mahiru_name</zorder>
-   <zorder>Mahiru_Vol9</zorder>
-   <zorder>Mahiru_Vol8_5</zorder>
-   <zorder>Mahiru_Vol8</zorder>
+   <zorder>Lloyd_text</zorder>
+   <zorder>Lloyd_picture</zorder>
+   <zorder>Lloyd_name</zorder>
+   <zorder>Lloyd_Vol12</zorder>
+   <zorder>Lloyd_Vol11</zorder>
+   <zorder>Lloyd_Vol10</zorder>
+   <zorder>S_text</zorder>
+   <zorder>S_picture</zorder>
+   <zorder>S_name</zorder>
+   <zorder>S_Vol9</zorder>
+   <zorder>S_Vol12</zorder>
+   <zorder>S_Vol11</zorder>
+   <zorder>Lloyd_more_info</zorder>
+   <zorder>S_more_info</zorder>
+   <zorder>Lloyd_time</zorder>
+   <zorder>S_time</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
